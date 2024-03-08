@@ -70,11 +70,6 @@ function Imageupload(){
               setReady(true);
               break;
         
-            case 'update':
-              // Generation update: update the output text.
-              setOutput(e.data.output);
-              break;
-        
             case 'complete':
               // Generation complete: re-enable the "Translate" button
               setDisabled(false);
